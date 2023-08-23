@@ -15,7 +15,7 @@ void main()
     for(int j=len-1,i=0;j>=0;j--,i++)
     {
         printf("i,j %d,%d",i,j);
-        rev[i]=s1[len];
+        rev[i]=s1[j];
         printf("rev[i] %c\n",rev[i]);
     }
     printf("s1 %s\n",s1);
